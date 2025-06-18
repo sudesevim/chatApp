@@ -29,7 +29,7 @@ export const sendMessage = async (req, res) => {
 
         //await conversation.save();
         //await newMessage.save();
-
+        
         await Promise.all([conversation.save(), newMessage.save()]);
 
         res.status(201).json(newMessage);
