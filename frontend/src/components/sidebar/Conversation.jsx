@@ -1,5 +1,4 @@
 import React from 'react';
-import defaultAvatar from '../../assets/girlAvatar.png';
 import useConversation from '../../zustand/useConversation';
 
 const Conversation = ({conversation,lastIdx,emoji}) => {
@@ -17,7 +16,7 @@ const Conversation = ({conversation,lastIdx,emoji}) => {
 			>
 				<div>
 					<div className='w-12 rounded-full'>
-						<img src={defaultAvatar} alt='user avatar' />
+						<img src={conversation.profilePic} alt='user avatar' />
 					</div>
 				</div>
 
