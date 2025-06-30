@@ -28,7 +28,7 @@ const SignUp = () => {
         <div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
             <h1 className='text-3xl font-semibold text-center text-gray-300'>
                 SignUp
-                <span className='text-blue-500'> ChatApp </span>
+                <span className='text-orange-700'> ChatApp </span>
             </h1>
 
             <form onSubmit={handleSubmit}>
@@ -76,7 +76,7 @@ const SignUp = () => {
 
                 <GenderCheckbox onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender} />
 
-                <Link to={"/login"} className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block' href='#'>
+                <Link to={"/login"} className='text-sm hover:underline hover:text-orange-700 mt-2 inline-block' href='#'>
                     Already have an account?
                 </Link>
 
