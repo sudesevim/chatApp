@@ -1,6 +1,6 @@
-# ChatApp
+# 💬 ChatApp
 
-A full-stack real-time chat application built with modern web technologies.
+A full-stack real-time chat application that enables seamless messaging using modern web technologies. Built with React, Vite, Socket.io, and MongoDB.
 
 ---
 
